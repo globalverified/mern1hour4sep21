@@ -8,6 +8,7 @@ import bodyParser from 'body-parser';
 import route from './route/routes.js'
 
 const app = express(); //initialize
+
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));//it will make sure space ya kuch extra characters na jaye
 app.use(cors());
