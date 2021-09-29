@@ -1,2 +1,6 @@
-node_modules
+# gitignore template for Drupal 8 projects
+#
+# earlier versions of Drupal are tracked in `community/PHP/`
 
+# Ignore node_modules
+node_modules
