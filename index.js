@@ -1,4 +1,3 @@
-// const express = require('express'); //sagar
 import express,{Router} from 'express'; //if latest version of node js is installed i.e. 14.17.0*
 import mongoose from 'mongoose';
 import cors from 'cors';
