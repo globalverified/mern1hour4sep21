@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/',route);
 
 const PORT = 3000;
-const URL = 'mongodb+srv://user:codeforinterview@crud.z7vbu.mongodb.net/MERN1HOUR?retryWrites=true&w=majority'; //url to connect with my mongodb
+const URL = 'check gmail draft'; //url to connect with my mongodb
 
 //useNewUrlParser- current url is depricated so mongodb should use new url, useUnifiedTopology- ye mongodb ko ye batata hai ki jo new server discovery hai and jo monitoring engine hai uska use karna hai. useFindAndModify- bydefault use karta so ye use nahi karna
 //note- useFindAnyModify is not supported if you are using mongoose version 6+ so remove it.
