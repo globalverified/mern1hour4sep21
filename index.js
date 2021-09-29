@@ -25,4 +25,3 @@ mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true }).then(
 }).catch(e => {
     console.log('Error: ', e.message);
 });
-
